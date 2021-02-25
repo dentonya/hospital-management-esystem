@@ -30,6 +30,17 @@ This module is the heart of our project where an admin can see the list of all p
 Also admin can add and remove doctors from the system 
 Login into admin account can be done by use of the admin email address and password and he or she will be redirected to the dashboard where he will perform the above mentioned tasks.
   `email`: admin@gmail.com, `password`: admin123
+  
+ Steps to run the project in your machine
+1. Download and install XAMPP in your machine
+2. Clone or download the repository
+3. Extract all the files and move it to the 'htdocs' folder of your XAMPP directory.
+4. Start the Apache and Mysql in your XAMPP control panel.
+5. Open your web browser and type 'localhost/phpmyadmin'
+6. In phpmyadmin page, create a new database from the left panel and name it as 'hospital'
+7. Import the file 'hospital.sql' inside your newly created database and click ok.
+8. Open a new tab and type 'localhost/hospital-management-esystem/login.php' in the url of your browser
+9. Hurray! That's it!
 
 
 
