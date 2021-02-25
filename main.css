@@ -1,0 +1,32 @@
+body {
+    background: url("images/doctor1.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.img-login-icons {
+    background: #fff;
+    border: 1px solid #207FDD;
+    padding: 15px;
+    height: 120px;
+    border-radius: 60px;
+    width: 120px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.col-md-4 {
+    padding: 20px;
+    position: relative;
+    left: 400px;
+}
+
+h1 {
+    left: 400px;
+    position: relative;
+}
+
+a:hover {
+    color: red;
+}
